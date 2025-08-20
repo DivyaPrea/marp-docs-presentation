@@ -6,17 +6,15 @@ theme: default
 paginate: true
 ---
 
-<!-- _class: lead -->
-
-# Product Documentation  
-### by 24ds3000049@ds.study.iitm.ac.in
+# Title Slide  
+Email: 24ds3000049@ds.study.iitm.ac.in
 
 ---
 
-## Agenda
+## Agenda  
 
 - Introduction  
-- Product Features  
+- Features  
 - Algorithmic Complexity  
 - Documentation Standards  
 - Conclusion  
@@ -26,33 +24,16 @@ paginate: true
 <!-- _backgroundImage: url('images/background.jpg') -->
 <!-- _backgroundSize: cover -->
 
-# Background Image Example
+# Background Image Example  
 
-This slide has a background image to showcase visuals.
+This slide uses a background image from **images/background.jpg**  
 
 ---
 
-## Algorithmic Complexity
+## Algorithmic Complexity  
 
-For our core algorithm:
+For our core algorithm:  
 
 $$
 T(n) = O(n \log n)
 $$
-
----
-
-## Code Example
-
-```python
-def binary_search(arr, target):
-    low, high = 0, len(arr) - 1
-    while low <= high:
-        mid = (low + high) // 2
-        if arr[mid] == target:
-            return mid
-        elif arr[mid] < target:
-            low = mid + 1
-        else:
-            high = mid - 1
-    return -1
